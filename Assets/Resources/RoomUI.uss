@@ -1,0 +1,20 @@
+.app { flex-grow: 1; color: rgb(43, 47, 44); }
+.room { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.hand { position: absolute; right: 14%; bottom: -4%; width: 27%; height: 55%; }
+Button { color: rgb(49, 56, 48); background-color: transparent; border-width: 0; border-radius: 0; margin: 0; padding: 0; }
+Button:hover { background-color: rgba(168, 184, 153, 0.16); }
+Button:active { background-color: rgba(168, 184, 153, 0.3); }
+Button:focus { border-width: 1px; border-color: rgb(130, 148, 120); }
+Button:disabled { opacity: 0.2; }
+.arrow { position: absolute; top: 43%; width: 56px; height: 84px; padding: 10px 7px; border-radius: 14px; }
+.arrow-left { left: 2%; }
+.arrow-right { right: 2%; }
+.overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.inventory-panel { position: absolute; left: 4%; bottom: 5%; width: 38%; max-height: 25%; border-width: 2px; border-color: rgb(55, 61, 54); background-color: rgba(251, 250, 246, 0.97); }
+.inventory-grid { flex-direction: row; flex-wrap: wrap; }
+.inventory-slot { width: 20%; height: 68px; border-width: 1px; border-color: rgb(83, 90, 80); padding: 8px; }
+.inventory-slot Label { font-size: 10px; color: rgb(163, 169, 156); }
+.inventory-toggle { position: absolute; left: 4%; bottom: 5%; padding: 9px 12px; font-size: 12px; letter-spacing: 1px; border-bottom-width: 1px; border-bottom-color: rgb(92, 104, 84); }
+.inventory-toggle.inventory-open { bottom: 28%; }
+.image-room .inventory-toggle { color: rgb(249, 248, 242); background-color: rgba(14, 20, 32, 0.85); border-radius: 5px; }
+.image-room .arrow { background-color: rgba(14, 20, 32, 0.65); }
