@@ -1,0 +1,31 @@
+.app { flex-grow: 1; color: rgb(43, 47, 44); }
+.room { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.location { position: absolute; left: 4%; top: 5%; max-width: 38%; }
+#room-title { font-size: 18px; -unity-font-style: bold; }
+#room-description { font-size: 12px; color: rgb(118, 120, 113); margin-top: 5px; white-space: normal; }
+#room-counter { font-size: 11px; color: rgb(134, 136, 128); margin-top: 10px; }
+.status { position: absolute; right: 5%; top: 4%; width: 43%; height: 110px; flex-direction: row; align-items: center; }
+.status-bars { flex-grow: 1; margin-right: -12px; }
+.status-row { margin-top: 7px; margin-bottom: 7px; }
+.status-row Label { font-size: 9px; color: rgb(120, 123, 116); margin-bottom: 4px; }
+.status-track { height: 17px; border-width: 2px; border-color: rgb(57, 63, 57); border-radius: 10px; overflow: hidden; background-color: rgba(255, 255, 255, 0.5); }
+.status-fill { height: 100%; background-color: rgb(180, 193, 173); }
+.mentality-row .status-fill { background-color: rgb(195, 188, 171); }
+.portrait { width: 104px; height: 104px; flex-shrink: 0; border-width: 2px; border-color: rgb(57, 63, 57); border-radius: 60px; background-color: rgb(249, 248, 242); justify-content: center; align-items: center; }
+.portrait Label { font-size: 32px; color: rgb(96, 109, 93); }
+.hand { position: absolute; right: 14%; bottom: -4%; width: 27%; height: 55%; }
+Button { color: rgb(49, 56, 48); background-color: transparent; border-width: 0; border-radius: 0; margin: 0; padding: 0; }
+Button:hover { background-color: rgba(168, 184, 153, 0.16); }
+Button:active { background-color: rgba(168, 184, 153, 0.3); }
+Button:focus { border-width: 1px; border-color: rgb(130, 148, 120); }
+Button:disabled { opacity: 0.2; }
+.arrow { position: absolute; top: 43%; width: 56px; height: 84px; padding: 10px 7px; border-radius: 14px; }
+.arrow-left { left: 2%; }
+.arrow-right { right: 2%; }
+.overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.inventory-panel { position: absolute; left: 4%; bottom: 5%; width: 38%; max-height: 25%; border-width: 2px; border-color: rgb(55, 61, 54); background-color: rgba(251, 250, 246, 0.97); }
+.inventory-grid { flex-direction: row; flex-wrap: wrap; }
+.inventory-slot { width: 20%; height: 68px; border-width: 1px; border-color: rgb(83, 90, 80); padding: 8px; }
+.inventory-slot Label { font-size: 10px; color: rgb(163, 169, 156); }
+.inventory-toggle { position: absolute; left: 4%; bottom: 5%; padding: 9px 12px; font-size: 12px; letter-spacing: 1px; border-bottom-width: 1px; border-bottom-color: rgb(92, 104, 84); }
+.inventory-toggle.inventory-open { bottom: 28%; }
